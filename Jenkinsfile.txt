@@ -1,0 +1,11 @@
+pipeline{
+    no agent
+    stages{
+        stage('1st try'){
+            echo "Running 1 try......"
+        }
+        stage('BesantProject'){
+            echo "running besan project....."
+        }
+    }
+}
