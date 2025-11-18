@@ -2,10 +2,14 @@ pipeline{
     no agent
     stages{
         stage('1st try'){
-            echo "Running 1 try......"
+            steps{
+                echo "Running 1 try task......"
+            }
         }
         stage('BesantProject'){
-            echo "running besan project....."
+            steps{
+                echo "Running besan...."
+            }
         }
     }
 }
